@@ -17,7 +17,6 @@ def binarySearch(lista: list, item: int) -> int:
 
     return None
 
-minha_lista = list(range(1, 1001))
+minha_lista = list(range(0, 101, 4))
 
-# print(minha_lista)
-print(binarySearch(minha_lista, 4))
+print(binarySearch(minha_lista, 100))
